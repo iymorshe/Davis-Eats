@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CCE48362BE0770D00448B10 /* Davis_EatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE48352BE0770D00448B10 /* Davis_EatsApp.swift */; };
+		8CCE48382BE0770D00448B10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE48372BE0770D00448B10 /* ContentView.swift */; };
+		8CCE483A2BE0770F00448B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE48392BE0770F00448B10 /* Assets.xcassets */; };
+		8CCE483D2BE0770F00448B10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE483C2BE0770F00448B10 /* Preview Assets.xcassets */; };
+		8CCE483F2BE0770F00448B10 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE483E2BE0770F00448B10 /* Persistence.swift */; };
+		8CCE48422BE0770F00448B10 /* Davis_Eats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE48402BE0770F00448B10 /* Davis_Eats.xcdatamodeld */; };
+		8CCE484C2BE0770F00448B10 /* Davis_EatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE484B2BE0770F00448B10 /* Davis_EatsTests.swift */; };
+		8CCE48562BE0770F00448B10 /* Davis_EatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE48552BE0770F00448B10 /* Davis_EatsUITests.swift */; };
+		8CCE48582BE0770F00448B10 /* Davis_EatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE48572BE0770F00448B10 /* Davis_EatsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CCE48482BE0770F00448B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CCE482A2BE0770D00448B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CCE48312BE0770D00448B10;
+			remoteInfo = "Davis Eats";
+		};
+		8CCE48522BE0770F00448B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CCE482A2BE0770D00448B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CCE48312BE0770D00448B10;
+			remoteInfo = "Davis Eats";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CCE48322BE0770D00448B10 /* Davis Eats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Davis Eats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCE48352BE0770D00448B10 /* Davis_EatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davis_EatsApp.swift; sourceTree = "<group>"; };
+		8CCE48372BE0770D00448B10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CCE48392BE0770F00448B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CCE483C2BE0770F00448B10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CCE483E2BE0770F00448B10 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8CCE48412BE0770F00448B10 /* Davis_Eats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Davis_Eats.xcdatamodel; sourceTree = "<group>"; };
+		8CCE48472BE0770F00448B10 /* Davis EatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davis EatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCE484B2BE0770F00448B10 /* Davis_EatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davis_EatsTests.swift; sourceTree = "<group>"; };
+		8CCE48512BE0770F00448B10 /* Davis EatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davis EatsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCE48552BE0770F00448B10 /* Davis_EatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davis_EatsUITests.swift; sourceTree = "<group>"; };
+		8CCE48572BE0770F00448B10 /* Davis_EatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davis_EatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CCE482F2BE0770D00448B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCE48442BE0770F00448B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCE484E2BE0770F00448B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CCE48292BE0770D00448B10 = {
+			isa = PBXGroup;
+			children = (
+				8CCE48342BE0770D00448B10 /* Davis Eats */,
+				8CCE484A2BE0770F00448B10 /* Davis EatsTests */,
+				8CCE48542BE0770F00448B10 /* Davis EatsUITests */,
+				8CCE48332BE0770D00448B10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCE48332BE0770D00448B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE48322BE0770D00448B10 /* Davis Eats.app */,
+				8CCE48472BE0770F00448B10 /* Davis EatsTests.xctest */,
+				8CCE48512BE0770F00448B10 /* Davis EatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CCE48342BE0770D00448B10 /* Davis Eats */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE48352BE0770D00448B10 /* Davis_EatsApp.swift */,
+				8CCE48372BE0770D00448B10 /* ContentView.swift */,
+				8CCE48392BE0770F00448B10 /* Assets.xcassets */,
+				8CCE483E2BE0770F00448B10 /* Persistence.swift */,
+				8CCE48402BE0770F00448B10 /* Davis_Eats.xcdatamodeld */,
+				8CCE483B2BE0770F00448B10 /* Preview Content */,
+			);
+			path = "Davis Eats";
+			sourceTree = "<group>";
+		};
+		8CCE483B2BE0770F00448B10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE483C2BE0770F00448B10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CCE484A2BE0770F00448B10 /* Davis EatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE484B2BE0770F00448B10 /* Davis_EatsTests.swift */,
+			);
+			path = "Davis EatsTests";
+			sourceTree = "<group>";
+		};
+		8CCE48542BE0770F00448B10 /* Davis EatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE48552BE0770F00448B10 /* Davis_EatsUITests.swift */,
+				8CCE48572BE0770F00448B10 /* Davis_EatsUITestsLaunchTests.swift */,
+			);
+			path = "Davis EatsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CCE48312BE0770D00448B10 /* Davis Eats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCE485B2BE0770F00448B10 /* Build configuration list for PBXNativeTarget "Davis Eats" */;
+			buildPhases = (
+				8CCE482E2BE0770D00448B10 /* Sources */,
+				8CCE482F2BE0770D00448B10 /* Frameworks */,
+				8CCE48302BE0770D00448B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Davis Eats";
+			productName = "Davis Eats";
+			productReference = 8CCE48322BE0770D00448B10 /* Davis Eats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CCE48462BE0770F00448B10 /* Davis EatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCE485E2BE0770F00448B10 /* Build configuration list for PBXNativeTarget "Davis EatsTests" */;
+			buildPhases = (
+				8CCE48432BE0770F00448B10 /* Sources */,
+				8CCE48442BE0770F00448B10 /* Frameworks */,
+				8CCE48452BE0770F00448B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CCE48492BE0770F00448B10 /* PBXTargetDependency */,
+			);
+			name = "Davis EatsTests";
+			productName = "Davis EatsTests";
+			productReference = 8CCE48472BE0770F00448B10 /* Davis EatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CCE48502BE0770F00448B10 /* Davis EatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCE48612BE0770F00448B10 /* Build configuration list for PBXNativeTarget "Davis EatsUITests" */;
+			buildPhases = (
+				8CCE484D2BE0770F00448B10 /* Sources */,
+				8CCE484E2BE0770F00448B10 /* Frameworks */,
+				8CCE484F2BE0770F00448B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CCE48532BE0770F00448B10 /* PBXTargetDependency */,
+			);
+			name = "Davis EatsUITests";
+			productName = "Davis EatsUITests";
+			productReference = 8CCE48512BE0770F00448B10 /* Davis EatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CCE482A2BE0770D00448B10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8CCE48312BE0770D00448B10 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					8CCE48462BE0770F00448B10 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8CCE48312BE0770D00448B10;
+					};
+					8CCE48502BE0770F00448B10 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8CCE48312BE0770D00448B10;
+					};
+				};
+			};
+			buildConfigurationList = 8CCE482D2BE0770D00448B10 /* Build configuration list for PBXProject "Davis Eats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CCE48292BE0770D00448B10;
+			productRefGroup = 8CCE48332BE0770D00448B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CCE48312BE0770D00448B10 /* Davis Eats */,
+				8CCE48462BE0770F00448B10 /* Davis EatsTests */,
+				8CCE48502BE0770F00448B10 /* Davis EatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CCE48302BE0770D00448B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCE483D2BE0770F00448B10 /* Preview Assets.xcassets in Resources */,
+				8CCE483A2BE0770F00448B10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCE48452BE0770F00448B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCE484F2BE0770F00448B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CCE482E2BE0770D00448B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCE483F2BE0770F00448B10 /* Persistence.swift in Sources */,
+				8CCE48382BE0770D00448B10 /* ContentView.swift in Sources */,
+				8CCE48422BE0770F00448B10 /* Davis_Eats.xcdatamodeld in Sources */,
+				8CCE48362BE0770D00448B10 /* Davis_EatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCE48432BE0770F00448B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCE484C2BE0770F00448B10 /* Davis_EatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCE484D2BE0770F00448B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCE48562BE0770F00448B10 /* Davis_EatsUITests.swift in Sources */,
+				8CCE48582BE0770F00448B10 /* Davis_EatsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CCE48492BE0770F00448B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CCE48312BE0770D00448B10 /* Davis Eats */;
+			targetProxy = 8CCE48482BE0770F00448B10 /* PBXContainerItemProxy */;
+		};
+		8CCE48532BE0770F00448B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CCE48312BE0770D00448B10 /* Davis Eats */;
+			targetProxy = 8CCE48522BE0770F00448B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CCE48592BE0770F00448B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CCE485A2BE0770F00448B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CCE485C2BE0770F00448B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Davis Eats/Preview Content\"";
+				DEVELOPMENT_TEAM = 55N9G92HC4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bonito.Davis-Eats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CCE485D2BE0770F00448B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Davis Eats/Preview Content\"";
+				DEVELOPMENT_TEAM = 55N9G92HC4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bonito.Davis-Eats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CCE485F2BE0770F00448B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55N9G92HC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bonito.Davis-EatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Davis Eats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Davis Eats";
+			};
+			name = Debug;
+		};
+		8CCE48602BE0770F00448B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55N9G92HC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bonito.Davis-EatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Davis Eats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Davis Eats";
+			};
+			name = Release;
+		};
+		8CCE48622BE0770F00448B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55N9G92HC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bonito.Davis-EatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Davis Eats";
+			};
+			name = Debug;
+		};
+		8CCE48632BE0770F00448B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55N9G92HC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bonito.Davis-EatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Davis Eats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CCE482D2BE0770D00448B10 /* Build configuration list for PBXProject "Davis Eats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCE48592BE0770F00448B10 /* Debug */,
+				8CCE485A2BE0770F00448B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCE485B2BE0770F00448B10 /* Build configuration list for PBXNativeTarget "Davis Eats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCE485C2BE0770F00448B10 /* Debug */,
+				8CCE485D2BE0770F00448B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCE485E2BE0770F00448B10 /* Build configuration list for PBXNativeTarget "Davis EatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCE485F2BE0770F00448B10 /* Debug */,
+				8CCE48602BE0770F00448B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCE48612BE0770F00448B10 /* Build configuration list for PBXNativeTarget "Davis EatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCE48622BE0770F00448B10 /* Debug */,
+				8CCE48632BE0770F00448B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CCE48402BE0770F00448B10 /* Davis_Eats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CCE48412BE0770F00448B10 /* Davis_Eats.xcdatamodel */,
+			);
+			currentVersion = 8CCE48412BE0770F00448B10 /* Davis_Eats.xcdatamodel */;
+			path = Davis_Eats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CCE482A2BE0770D00448B10 /* Project object */;
+}
