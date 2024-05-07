@@ -10,7 +10,6 @@ def getDCMenu(dining_common):
     # Dictionary to hold all menu items grouped by days and meals
     weekly_menu = {}
 
-    # Assuming each day's menu is contained in a div with class 'menu_maincontainer'
     day_sections = soup.find_all("div", class_="menu_maincontainer")
 
     for section in day_sections:
@@ -32,7 +31,7 @@ def getDCMenu(dining_common):
             else:
                 continue  # If no valid meal type is found, skip to the next
 
-            menu_items = meal.find_all("li", class_="trigger")  # Adjust based on actual structure
+            menu_items = meal.find_all("li", class_="trigger")  
             for item in menu_items:
                 dish_name = item.find("span").text.strip() if item.find("span") else "No Dish Name"
                 description = item.find("p")
@@ -69,6 +68,5 @@ def print_menu(weekly_menu):
             print()  # Blank line for better separation between meals
         print("="*40)  # Line to separate days for clarity
 
-# Example usage assuming 'menu_data' holds the returned dictionary from getDCMenu
 menu_data = getDCMenu("segundo")
 print_menu(menu_data)
