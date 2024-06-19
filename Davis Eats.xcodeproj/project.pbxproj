@@ -13,6 +13,8 @@
 		8CCE483D2BE0770F00448B10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE483C2BE0770F00448B10 /* Preview Assets.xcassets */; };
 		8CCE483F2BE0770F00448B10 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE483E2BE0770F00448B10 /* Persistence.swift */; };
 		8CCE48422BE0770F00448B10 /* Davis_Eats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE48402BE0770F00448B10 /* Davis_Eats.xcdatamodeld */; };
+		ABC652A72C23484100868774 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC652A62C23484100868774 /* HomeView.swift */; };
+		ABC652A92C2354E600868774 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC652A82C2354E600868774 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8CCE483C2BE0770F00448B10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CCE483E2BE0770F00448B10 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8CCE48412BE0770F00448B10 /* Davis_Eats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Davis_Eats.xcdatamodel; sourceTree = "<group>"; };
+		ABC652A62C23484100868774 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ABC652A82C2354E600868774 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		8CCE48342BE0770D00448B10 /* Davis Eats */ = {
 			isa = PBXGroup;
 			children = (
+				ABC652A82C2354E600868774 /* CardView.swift */,
+				ABC652A62C23484100868774 /* HomeView.swift */,
 				8CCE48352BE0770D00448B10 /* Davis_EatsApp.swift */,
 				8CCE48372BE0770D00448B10 /* ContentView.swift */,
 				8CCE48392BE0770F00448B10 /* Assets.xcassets */,
@@ -146,6 +152,8 @@
 				8CCE483F2BE0770F00448B10 /* Persistence.swift in Sources */,
 				8CCE48382BE0770D00448B10 /* ContentView.swift in Sources */,
 				8CCE48422BE0770F00448B10 /* Davis_Eats.xcdatamodeld in Sources */,
+				ABC652A72C23484100868774 /* HomeView.swift in Sources */,
+				ABC652A92C2354E600868774 /* CardView.swift in Sources */,
 				8CCE48362BE0770D00448B10 /* Davis_EatsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
